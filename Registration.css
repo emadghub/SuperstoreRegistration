@@ -1,0 +1,53 @@
+.head{
+    display: flexbox;
+    position: relative;
+    border: 3px solid red;
+}
+.header{
+    color: bisque;
+    display: flexbox;
+    position: relative;
+    border:3px solid red;
+    text-align: center;
+    font-size: 60;
+    margin-top: 10;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+
+div p{
+    font-size: 40;
+}
+
+.bottomhalf{
+    display: flexbox;
+    border: 3px solid green;
+    position: relative;
+    margin-top: 90;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgba(223, 156, 11, 0.719);
+}
+
+label{
+    font-size: 20;
+    font-style: italic;
+    padding: 3px;
+}
+
+.box{
+    background-color:;
+    padding: 3px;
+    color: white;
+}
+input{
+    font-size: 15;
+    background-color:blueviolet;
+    color: white;
+}
+
+label span{
+    text-decoration: underline;
+    color:red;
+    background-color: black;
+}

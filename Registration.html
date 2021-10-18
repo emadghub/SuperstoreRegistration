@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<title>ES Registration</title>
+<link rel="stylesheet" href="Registration.css">
+<style>
+    body{
+        background-image: url('storee.jpg');
+        background-size:cover;
+    }
+</style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="header">Register Here :)
+        <div><p>Create your account. It's free and only takes a minute</p></div>
+        </div>
+        <div class="bottomhalf">
+            <form action="Registration.php" method="post">
+                <span class="box"><label for="fname">FirstName:</label></span>
+                    <input type="text" name="name" id="fname" size="" maxlength="10" Value="First">
+                <span class="box"><label for="fname">MiddleName:</label></span>
+                    <input type="text" name="name" id="mname" size="" maxlength="10" Value="Middle">
+                <span class="box"><label for="fname">LastName:</label></span>
+                    <input type="text" name="name" id="lname" size="" maxlength="10" Value="Last">
+                    <br>
+                <span class="box"><label for="gender">Gender:</label></span> 
+                    <br>
+                <span class="box"><label for="male">Male:</label></span>
+                    <input type="radio" name="sex" id="male" value="male"/>
+                    <br>
+                <span class="box"><label for="female">Female:</label></span>
+                    <input type="radio" name="sex" id="female" value="female"/>
+                    <br>
+                <span class="box"><label for="trans">Transgender:</label></span>
+                    <input type="radio" name="sex" id="trans" value="transgender"/>
+                    <br>
+                <span class="box"><label for="email">Email:</label></span>
+                    <input type="text" name="email" id="email" size="" maxlength="50" Value="Email Address">
+                    <br>
+                <span class="box"><label for="numb">PhoneNumber:</label></span>
+                    <input type="text" name="Number" id="numb" size="" maxlength="15" value="Phone">
+                    <br>
+                <span class="box"><label for="Add">Address:</label></span>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                <span class="box"><label for="where">Where did you hear about us?</label></span>
+                <select name="where" id="where">
+                    <option value="Social">Facebook</option>
+                    <option value="Social">Instagram</option>
+                    <option value="Social">Twitter</option>
+                    <option value="Social">Friend</option>
+                    <option value="Social">Newspaper</option>
+                    <option value="Social">Television</option>
+                </select>
+                <br>
+                <span class="box"><label for="terms">Please check the box below to agree and accept the terms and conditions of EasyShop. <br>
+                You will also receive promotional emails from EasyShop. <br>
+                You can unsubscribe from our promotional offers by emailing to us on <span>queries@EasyShop.com</span> </label></span> <br>
+                    <input type="checkbox" value="terms" size="">
+                    <br>
+                    <br>
+                    <input type="Submit" value="Submit here">
+            
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
